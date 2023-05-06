@@ -1,3 +1,10 @@
+//Project : Digital Clock
+
+
+/**
+ * @function reloj
+ * @returns html with the date and time
+ */
 function reloj() {
     // Obtenemos la fecha del sistema
     fechaDeHoy = new Date();
