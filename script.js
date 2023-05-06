@@ -37,5 +37,6 @@ function reloj() {
     document.getElementById('time').innerHTML = hora + ':' + min + ':' + seg;
 }
 
+setInterval(reloj, 1000); // Actualizar cada 1 segundo (1 segundo = 1000 milisegundos)
 
 reloj();
